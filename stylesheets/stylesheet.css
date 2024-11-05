@@ -1,0 +1,33 @@
+
+
+/* sets the font for paragraphs throughout body */
+body p.paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+
+/* sets the background image for the header */
+header {
+    background-image: url("../images/christmas_background.jpg");
+    height: fit-content;
+}
+
+/* sets the font, size, and color of the header and timer */
+header h1, header div#CountDown {
+    color: #F2F2F2;
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+    text-shadow: #262526;
+    display: inline-block;
+   
+}
+
+/* sets the width so the timer appears on the right side */
+header h1 {
+    width: 85%;
+}
+
