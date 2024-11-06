@@ -1,6 +1,8 @@
 
 
-/* sets the font for paragraphs throughout body */
+
+
+/* Font Styles */
 body p.paragraph {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -8,26 +10,92 @@ body p.paragraph {
   font-style: normal;
 }
 
-/* sets the background image for the header */
+
+
+/* Header Styles */
 header {
     background-image: url("../images/christmas_background.jpg");
-    height: fit-content;
+    height: auto;
 }
 
-/* sets the font, size, and color of the header and timer */
-header h1, header div#CountDown {
+h1 {
     color: #F2F2F2;
     font-family: "Notable", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: xxx-large;
     text-shadow: #262526;
-    display: inline-block;
-   
+    text-align: center;
 }
 
-/* sets the width so the timer appears on the right side */
-header h1 {
-    width: 85%;
+
+
+/* CountDown Timer */
+div#CountDown {
+    color: #F2F2F2;
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xxx-large;
+    text-shadow: #262526;
+    text-align: center;
+    
+    background-color: green;
 }
 
+
+
+/* Navigation List Styles */
+ul {
+    list-style-type: none;
+}
+
+li a {
+    background-color: #F2F2F2;
+    text-align: center;
+    border: 1px solid #262526;
+    color: #599474;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    background-color: #d1d1d1;
+    color: #404040;
+}
+
+
+
+
+/* Image Styles */
+img#firstpic {
+    float: right;
+    margin-left: auto;
+    width: 18em;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+img#secondpic {
+    float: left;
+    margin-left: auto;
+    width: 18em;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+img#thirdpic {
+    float: right;
+    margin-left: auto;
+    width: 18em;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+
+/* Grid Styles */
+main {
+    display: grid;
+    row-gap: 30px
+}
