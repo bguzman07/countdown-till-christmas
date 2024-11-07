@@ -1,13 +1,30 @@
 
+/* Sets the default spacings to 0 for easier styling */
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, nav a, ol, p, section, span, ul,
+table, tr, td, th, col, colgroup {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+body {
+    min-width: 340px;
+    max-width: 1020px;
+    margin: 0px auto;
+}
 
 
 
-/* Font Styles */
+/* Text Style in main text */
 body p.paragraph {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 350;
   font-style: normal;
+  margin: 10px;
 }
 
 
@@ -15,7 +32,8 @@ body p.paragraph {
 /* Header Styles */
 header {
     background-image: url("../images/christmas_background.jpg");
-    height: auto;
+    min-height: 50px;
+    max-height: 130px;
 }
 
 h1 {
@@ -23,9 +41,11 @@ h1 {
     font-family: "Notable", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: xxx-large;
+    font-size: 4em;
     text-shadow: #262526;
     text-align: center;
+    padding: 15px;
+    padding-top: 5px;
 }
 
 
@@ -33,14 +53,15 @@ h1 {
 /* CountDown Timer */
 div#CountDown {
     color: #F2F2F2;
+    font-size: 1.3em;
     font-family: "Notable", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: xxx-large;
     text-shadow: #262526;
     text-align: center;
-    
     background-color: green;
+    padding: 10px;
+    padding-top: 5px;
 }
 
 
@@ -48,54 +69,64 @@ div#CountDown {
 /* Navigation List Styles */
 ul {
     list-style-type: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px outset #fd4b4b;
 }
 
 li a {
     background-color: #F2F2F2;
     text-align: center;
-    border: 1px solid #262526;
-    color: #599474;
+    color: #404040;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.5em;
+
+    display: block;
+    min-width: 100px;
+    max-width: 250px;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 li a:hover {
     background-color: #d1d1d1;
-    color: #404040;
 }
 
 
 
 
 /* Image Styles */
+img, h2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 img#firstpic {
     float: right;
-    margin-left: auto;
     width: 18em;
     margin-top: 30px;
-    margin-left: 10px;
 }
 
 img#secondpic {
     float: left;
-    margin-left: auto;
     width: 18em;
     margin-top: 30px;
-    margin-right: 10px;
 }
 
 img#thirdpic {
     float: right;
-    margin-left: auto;
     width: 18em;
     margin-top: 30px;
-    margin-left: 10px;
 }
 
 
-
-/* Grid Styles */
-main {
-    display: grid;
-    row-gap: 30px
+/* Footer Styles */
+footer {
+    background-color: #fd4b4b;
+    font-family: "Notable", sans-serif;
+    color: #F2F2F2;
+    text-align: center;
+    font-size: large;
 }
