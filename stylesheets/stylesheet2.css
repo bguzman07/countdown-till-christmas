@@ -1,7 +1,7 @@
 
 
 
-/* Navigation flex-box */
+/* 
 .sidenav {
     display: -webkit-flex;
     display: flex;
@@ -24,9 +24,6 @@
     gap: 30px;
 }
 
-
-
-/* Grid Styles */
 main {
     display: grid;
     row-gap: 30px;
@@ -34,4 +31,41 @@ main {
     left: 200px;
     max-width: 820px;
     top: -145px;
+} 
+*/
+
+
+
+/* Navigation flex-box */
+
+
+#CountDown {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sidenav {
+    width: 19%;
+    clear: left;
+    float: left;
+}
+
+
+/* Grid Styles */
+main {
+    width: 80%;
+    float: right;
+    clear: none;
+    display: -webkit-flex;
+    display: flex;
+    row-gap: 3em;
+    flex-direction: column;
+}
+
+footer {
+    width: 100%;
+    clear: right;
 }
