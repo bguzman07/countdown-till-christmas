@@ -1,0 +1,138 @@
+
+/* Sets the default spacings to 0 for easier styling */
+address, article, aside, blockquote, body, cite, 
+div, dl, dt, dd, em, figcaption, figure, footer, 
+h1, h2, h3, h4, h5, h6, header, html, img, 
+li, main, nav, nav a, ol, p, section, span, ul,
+table, tr, td, th, col, colgroup {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+
+/* Default Margin Styles for the Body */
+body {
+    width: 70%;
+    margin: 0px auto;
+    min-width: 430px;
+}
+
+
+
+/* Text Style in main text */
+body p.paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  margin: 10px;
+  line-height: 1.5;
+}
+
+
+
+/* Header Styles */
+header {
+    background-image: url("../images/christmas_background.jpg");
+    height: 10%;
+    width: 100%;
+}
+
+h1 {
+    color: #F2F2F2;
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-wrap: nowrap;
+}
+
+h2 {
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 1.8em;
+}
+
+/* CountDown Timer Styles */
+div#CountDown {
+    color: #F2F2F2;
+    font-size: 1.3em;
+    font-family: "Notable", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+
+
+/* Navigation List Styles */
+ul {
+    list-style-type: none;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px outset #fd4b4b;
+
+    text-align: center;
+}
+
+li a {
+    background-color: #F2F2F2;
+    color: #404040;
+    text-decoration: none;
+    font-size: 1.4em;
+
+    display: flex;
+    display: -webkit-flex;
+    padding: 15px;
+}
+
+li a:hover {
+    background-color: #d1d1d1;
+}
+
+
+
+/* Image Styles */
+img{
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+img#firstpic {
+    float: right;
+    width: 18em;
+}
+
+img#secondpic {
+    float: left;
+    width: 18em;
+}
+
+img#thirdpic {
+    float: right;
+    width: 18em;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #fd4b4b;
+    font-family: "Notable", sans-serif;
+    color: #F2F2F2;
+    text-align: center;
+    font-size: 1.3em;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}

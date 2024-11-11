@@ -1,0 +1,6 @@
+1. style navigation
+2. add links to navigation
+3. add space in footer date
+4. add content
+5. fix the different screen sizes (probably has to do with the relative main text)
+
